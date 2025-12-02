@@ -22,8 +22,6 @@ const App = () => {
     const copyTask = [...task]
     copyTask.splice(idx, 1)
     setTask(copyTask)
-
-    localStorage.setItem("tasks", JSON.stringify(copyTask));
   }
 
   return (
